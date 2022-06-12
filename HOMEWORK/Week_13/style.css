@@ -1,0 +1,28 @@
+.myImage {
+  width: 100%;
+}
+
+@media only screen and (min-width: 769px) {
+  .myImage {
+    border: 10px solid rgb(255, 255, 255);
+  }
+  body {
+    background-color: rgb(215, 182, 137);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .myImage {
+    border: 10px solid rgb(255, 255, 255);
+  }
+  body {
+    background-color: rgb(90, 132, 206);
+  }
+}
+@media only screen and (max-width: 550px) {
+  .myImage {
+    border: 10px solid rgb(255, 255, 255);
+  }
+  body {
+    background-color: rgb(84, 167, 102);
+  }
+}

@@ -1,0 +1,75 @@
+<form>
+  <input name="style" type="hidden" value="design" />
+
+  <fieldset>
+    <legend>Interior Design Consultation Form</legend>
+    <label for="design project"
+      >What size interior design project are you looking to start?</label
+    >
+    <select name="design project" id="design project">
+      <option value="SR">Single Room</option>
+      <option value="SRS">Several Rooms</option>
+      <option value="EP" selected="selected">Entire Property</option>
+    </select>
+    <br />
+    <br />
+
+    <label for="budget"
+      >What's your budget? *Please enter the approximate amount in EUR</label
+    >
+    <input type="password" name="budget" />
+    <br />
+    <br />
+
+    <label for="style">What interior design style are you most drawn to?</label>
+    <select multiple name="style" id="style">
+      <option value="1">Minimalist</option>
+      <option value="2">Classic traditional</option>
+      <option value="3">Modern glamour</option>
+      <option value="4">Industrial</option>
+      <option value="5">Coastal</option>
+    </select>
+  </fieldset>
+
+  <fieldset>
+    <legend>
+      We'd love to chat more about your project. Could you enter your personal
+      details so we can follow up with you?
+    </legend>
+
+    <br />
+
+    <label for="fname">First Name</label>
+    <input type="text" name="fname" id="fname" />
+    <br />
+
+    <label for="lname">Last name</label>
+    <input type="text" name="lname" id="lname" />
+    <br />
+    <br />
+
+    <label for="gender">Gender:</label>
+    <input name="gender" type="radio" id="gm" value="m" />
+    <label for="gm">Male</label>
+
+    <input name="gender" type="radio" id="gf" value="f" />
+    <label for="gf">Female</label>
+    <br />
+    <br />
+
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email" />
+    <br />
+  </fieldset>
+
+  <p>
+    <textarea name="terms" cola="30" rows="4" readonly="readonly">
+TERMS AND CONDITIONS...</textarea
+    >
+  </p>
+
+  <p>
+    <input type="submit" name="submit" value="Send Form" />
+    <input type="reset" value="Clear Form" />
+  </p>
+</form>

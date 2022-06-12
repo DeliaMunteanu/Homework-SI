@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+body {
+  background: rgb(236, 194, 142);
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-family: Roboto;
+  text-align: center;
+}
+
+.newPic {
+  max-height: 400px;
+  max-width: 400px;
+  margin-top: 20px;
+}
+.hidden {
+  display: none;
+}
+
+#getPhoto {
+  background-color: rgb(225, 137, 29);
+  color: white;
+  border: 0px;
+  width: 100px;
+  height: 70px;
+  border-radius: 10px;
+  border: 1px solid #7d6845;
+}
+
+#getPhoto:hover {
+  color: #000000;
+  background-color: #d6a259;
+  transition: 0.3s;
+  border: 1px solid #7d6845;
+}
+
+#repeatAction {
+  background-color: rgb(225, 137, 29);
+  color: white;
+  border: 0px;
+  width: 100px;
+  height: 70px;
+  border-radius: 10px;
+  border: 1px solid #7d6845;
+}
+#repeatAction:hover {
+  color: #000000;
+  background-color: #d6a259;
+  transition: 0.3s;
+  border: 1px solid #7d6845;
+}
